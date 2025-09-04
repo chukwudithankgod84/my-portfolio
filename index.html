@@ -153,5 +153,25 @@
     <div class="container">© <span id="year"></span> YourName — AI Automation & Workflow Specialist</div>
   </footer>
   <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+  <section id="contact" style="padding:50px;text-align:center;">
+  <h2>Contact Me</h2>
+  <p>If you’d like to work with me or learn more, send me a message below:</p>
+
+  <form action="https://formspree.io/f/your-form-id" method="POST" style="max-width:400px;margin:auto;">
+    <input type="text" name="name" placeholder="Your Name" required 
+      style="margin-bottom:10px;width:100%;padding:10px;border-radius:8px;border:1px solid #ccc;" />
+
+    <input type="email" name="email" placeholder="Your Email" required 
+      style="margin-bottom:10px;width:100%;padding:10px;border-radius:8px;border:1px solid #ccc;" />
+
+    <textarea name="message" placeholder="Your Message" rows="4" required 
+      style="margin-bottom:10px;width:100%;padding:10px;border-radius:8px;border:1px solid #ccc;"></textarea>
+
+    <button type="submit" style="padding:10px 20px;border:none;border-radius:8px;background:#007bff;color:#fff;">
+      Send
+    </button>
+  </form>
+  </section>
+
 </body>
 </html>
