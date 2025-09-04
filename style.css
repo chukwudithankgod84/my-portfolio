@@ -46,20 +46,12 @@ nav ul li a {
   margin: auto;
 }
 
-.hero-img {
-  max-width: 100%;
-  margin-top: 2rem;
-  border-radius: 10px;
-}
-
-.section {
-  padding: 3rem 2rem;
-  text-align: center;
-}
-
+.hero-img,
 .section-img {
-  max-width: 100%;
-  margin-top: 1rem;
+  width: 90%;          /* don’t let it take full screen */
+  max-width: 500px;    /* limit image size */
+  margin: 1.5rem auto; /* center + spacing */
+  display: block;
   border-radius: 10px;
 }
 
