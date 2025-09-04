@@ -99,3 +99,36 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+/* Mobile-first design is already in place */
+
+/* Tablet (≥768px) */
+@media (min-width: 768px) {
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+  .hero p {
+    font-size: 1.2rem;
+  }
+  nav ul {
+    gap: 2rem;
+  }
+}
+
+/* Desktop (≥1024px) */
+@media (min-width: 1024px) {
+  .hero {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+  }
+  .hero-img {
+    max-width: 400px;
+  }
+  .section {
+    max-width: 1000px;
+    margin: auto;
+    text-align: left;
+  }
+}
